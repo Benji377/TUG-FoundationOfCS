@@ -56,7 +56,7 @@ To write new rules for Marvin click on `Expertenmodus` -> `Regelsatz editieren`.
 Now you can write rules (or //comments) and to apply the new ruleset click on `Regelsatz übernehmen`.  
 To let Marvin loose press `Neustart` and adjust the speed to your liking by moving the `Geschwindigkeit` slider.
 
-Save your ruleset - that lets marvin perform this task - in the [`marvin-subtraction-ruleset.txt`](marvin-subtraction-ruleset.txt) file.
+Save your ruleset - that lets marvin perform this task - in the [`subtract.txt`](subtract.txt) file.
 
 ## Example
 
