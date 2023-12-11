@@ -1,0 +1,4 @@
+(fgf,,)->(,nach vorn,)
+(ggg,,)->(,nach vorn,)
+(gfg,,)->(,umdrehen,)
+
