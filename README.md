@@ -27,3 +27,12 @@ The detailed information about this task can be found here: [Automatons README](
 
 You will have to complete 2 quizzes in the TeachCenter course. One is about O-Notation. The second quiz is about formal languages.<br />
 See the [TeachCenter](https://tc.tugraz.at/main/course/view.php?id=729) course for more detailed information about the deadline and modus of the quizzes.
+
+## How to sync your repository
+
+In case of changes made to the upstream repository, please use the provided commands to sync your repository with the upstream.<br />
+```shell
+- git remote add upstream git@gitlab.tugraz.at:ascii/FOCS/WS-2023/DEFAULT/PRACTICALS/upstream.git
+- git fetch upstream
+- git merge upstream/main
+```
