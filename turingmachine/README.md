@@ -1,4 +1,4 @@
-# Turingmachine
+# Turingmachine (20 points)
 
 #### Submission:
 
@@ -131,4 +131,6 @@ Example result for `9+2` (at the end of the addition the cursor must point to \*
 
 #### Changelog
 
-* **2023-11-30 13:00** [YB]: Description init. 
+* **2023-11-26 19:30** [YB]: Description init. 
+* **2023-11-30 13:00** [YB]: Fixing some mistakes.
+* **2023-12-17 14:08** [SG]: Update heading
