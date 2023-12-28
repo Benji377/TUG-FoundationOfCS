@@ -1,4 +1,44 @@
-(fgf,,)->(,nach vorn,)
+// Bewegung
 (ggg,,)->(,nach vorn,)
-(gfg,,)->(,umdrehen,)
+(ggg,,1)->(1,nach vorn,)
+(ggg,,0)->(0,nach vorn,)
+(ggg,pink,1)->(1,nach vorn,pink)
+(ggg,pink,0)->(0,nach vorn,pink)
+(ggg,gelb,)->(,umdrehen,)
+#(ggg,weiß,)->(,umdrehen,blau)
+(ggf,,)->(,nach links,gelb)
+(ggf,pink,)->(,nach links,weiß)
+(gfg,,)->(,nach links,)
+(gfg,pink,)->(,nach links,pink)
+(fgf,,)->(,nach vorn,)
 
+// Retour
+(gff,,)->(,umdrehen,grün)
+(ggg,grün,)->(,nach links,grün)
+(ffg,grün,)->(,nach rechts,grün)
+(fgg,grün,)->(,nach vorn,grün)
+
+// Subtraktion
+// 0-0
+(ggg,gelb,0)->(0,nach vorn,grün)
+(ggg,grün,0)->(0,nach vorn,grün)
+// Borrow
+(ggg,weiß,0)->(0,nach vorn,rot)
+
+// 0-1
+(ggg,grün,1)->(1,nach vorn,blau)
+
+
+// 1-0
+(ggg,gelb,1)->(1,nach vorn,rot)
+(ggg,rot,0)->(0,nach vorn,rot)
+// Borrow
+(ggg,weiß,1)->(1,nach vorn,grün)
+
+// 1-1
+(ggg,rot,1)->(1,nach vorn,grün)
+
+// Ergebnis schreiben
+(gfg,rot,)->(1,umdrehen,)
+(gfg,grün,)->(0,umdrehen,)
+(gfg,blau,)->(1,umdrehen,pink)
