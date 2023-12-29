@@ -1,484 +1,101 @@
 {
   "program": [
-    [
-      "_",
-      "Start",
-      [
-        "_",
-        "Left",
-        "Start"
-      ]
-    ],
-    [
-      "0",
-      "Start",
-      [
-        "y",
-        "Left",
-        "Found0"
-      ]
-    ],
-    [
-      "1",
-      "Start",
-      [
-        "y",
-        "Left",
-        "Found1"
-      ]
-    ],
-    [
-      "_",
-      "Found0",
-      [
-        "_",
-        "Stop",
-        "End"
-      ]
-    ],
-    [
-      "0",
-      "Found0",
-      [
-        "0",
-        "Left",
-        "Found0"
-      ]
-    ],
-    [
-      "1",
-      "Found0",
-      [
-        "1",
-        "Left",
-        "Found0"
-      ]
-    ],
-    [
-      "+",
-      "Start",
-      [
-        "+",
-        "Left",
-        "Clean"
-      ]
-    ],
-    [
-      "+",
-      "Found0",
-      [
-        "+",
-        "Left",
-        "Add0"
-      ]
-    ],
-    [
-      "_",
-      "Found1",
-      [
-        "_",
-        "Stop",
-        "End"
-      ]
-    ],
-    [
-      "0",
-      "Found1",
-      [
-        "0",
-        "Left",
-        "Found1"
-      ]
-    ],
-    [
-      "1",
-      "Found1",
-      [
-        "1",
-        "Left",
-        "Found1"
-      ]
-    ],
-    [
-      "+",
-      "Found1",
-      [
-        "+",
-        "Left",
-        "Add1"
-      ]
-    ],
-    [
-      "_",
-      "Add0",
-      [
-        "_",
-        "Stop",
-        "End"
-      ]
-    ],
-    [
-      "0",
-      "Add0",
-      [
-        "x",
-        "Right",
-        "Resu0"
-      ]
-    ],
-    [
-      "1",
-      "Add0",
-      [
-        "x",
-        "Right",
-        "Resu1"
-      ]
-    ],
-    [
-      "+",
-      "Add0",
-      [
-        "+",
-        "Stop",
-        "End"
-      ]
-    ],
-    [
-      "x",
-      "Start",
-      [
-        "_",
-        "Stop",
-        "End"
-      ]
-    ],
-    [
-      "x",
-      "Found0",
-      [
-        "x",
-        "Left",
-        "Found0"
-      ]
-    ],
-    [
-      "x",
-      "Found1",
-      [
-        "x",
-        "Left",
-        "Found1"
-      ]
-    ],
-    [
-      "x",
-      "Add0",
-      [
-        "x",
-        "Left",
-        "Add0"
-      ]
-    ],
-    [
-      "_",
-      "Add1",
-      [
-        "_",
-        "Stop",
-        "End"
-      ]
-    ],
-    [
-      "0",
-      "Add1",
-      [
-        "x",
-        "Right",
-        "Resu1"
-      ]
-    ],
-    [
-      "1",
-      "Add1",
-      [
-        "x",
-        "Right",
-        "Resu2"
-      ]
-    ],
-    [
-      "+",
-      "Add1",
-      [
-        "+",
-        "Stop",
-        "End"
-      ]
-    ],
-    [
-      "x",
-      "Add1",
-      [
-        "x",
-        "Left",
-        "Add1"
-      ]
-    ],
-    [
-      "_",
-      "Resu0",
-      [
-        "_",
-        "Stop",
-        "End"
-      ]
-    ],
-    [
-      "0",
-      "Resu0",
-      [
-        "0",
-        "Right",
-        "Resu0"
-      ]
-    ],
-    [
-      "1",
-      "Resu0",
-      [
-        "1",
-        "Right",
-        "Resu0"
-      ]
-    ],
-    [
-      "+",
-      "Resu0",
-      [
-        "+",
-        "Right",
-        "Resu0"
-      ]
-    ],
-    [
-      "x",
-      "Resu0",
-      [
-        "x",
-        "Right",
-        "Resu0"
-      ]
-    ],
-    [
-      "y",
-      "Resu0",
-      [
-        "0",
-        "Left",
-        "Start"
-      ]
-    ],
-    [
-      "_",
-      "Resu1",
-      [
-        "_",
-        "Stop",
-        "End"
-      ]
-    ],
-    [
-      "0",
-      "Resu1",
-      [
-        "0",
-        "Right",
-        "Resu1"
-      ]
-    ],
-    [
-      "1",
-      "Resu1",
-      [
-        "1",
-        "Right",
-        "Resu1"
-      ]
-    ],
-    [
-      "+",
-      "Resu1",
-      [
-        "+",
-        "Right",
-        "Resu1"
-      ]
-    ],
-    [
-      "x",
-      "Resu1",
-      [
-        "x",
-        "Right",
-        "Resu1"
-      ]
-    ],
-    [
-      "y",
-      "Resu1",
-      [
-        "1",
-        "Left",
-        "Start"
-      ]
-    ],
-    [
-      "y",
-      "Start",
-      [
-        "y",
-        "Left",
-        "Start"
-      ]
-    ],
-    [
-      "y",
-      "Found0",
-      [
-        "y",
-        "Left",
-        "End"
-      ]
-    ],
-    [
-      "y",
-      "Found1",
-      [
-        "y",
-        "Left",
-        "End"
-      ]
-    ],
-    [
-      "y",
-      "Add0",
-      [
-        "y",
-        "Left",
-        "End"
-      ]
-    ],
-    [
-      "y",
-      "Add1",
-      [
-        "y",
-        "Left",
-        "End"
-      ]
-    ],
-    [
-      "_",
-      "Clean",
-      [
-        "_",
-        "Right",
-        "Clean"
-      ]
-    ],
-    [
-      "0",
-      "Clean",
-      [
-        "0",
-        "Stop",
-        "End"
-      ]
-    ],
-    [
-      "1",
-      "Clean",
-      [
-        "1",
-        "Stop",
-        "End"
-      ]
-    ],
-    [
-      "+",
-      "Clean",
-      [
-        "_",
-        "Right",
-        "End"
-      ]
-    ],
-    [
-      "x",
-      "Clean",
-      [
-        "_",
-        "Left",
-        "Clean"
-      ]
-    ],
-    [
-      "y",
-      "Clean",
-      [
-        "_",
-        "Stop",
-        "End"
-      ]
-    ]
+    ["_", "Start", ["_", "Left", "Start"]],
+    ["0", "Start", ["y", "Left", "Found0"]],
+    ["1", "Start", ["y", "Left", "Found1"]],
+    ["_", "Found0", ["_", "Stop", "Overflow"]],
+    ["0", "Found0", ["0", "Left", "Found0"]],
+    ["1", "Found0", ["1", "Left", "Found0"]],
+    ["+", "Start", ["+", "Left", "Clean"]],
+    ["+", "Found0", ["+", "Left", "Add0"]],
+    ["_", "Found1", ["_", "Stop", "Overflow"]],
+    ["0", "Found1", ["0", "Left", "Found1"]],
+    ["1", "Found1", ["1", "Left", "Found1"]],
+    ["+", "Found1", ["+", "Left", "Add1"]],
+    ["_", "Add0", ["_", "Stop", "Overflow"]],
+    ["0", "Add0", ["x", "Right", "Resu0"]],
+    ["1", "Add0", ["x", "Right", "Resu1"]],
+    ["+", "Add0", ["+", "Stop", "End"]],
+    ["x", "Start", ["_", "Stop", "End"]],
+    ["x", "Found0", ["x", "Left", "Found0"]],
+    ["x", "Found1", ["x", "Left", "Found1"]],
+    ["x", "Add0", ["x", "Left", "Add0"]],
+    ["_", "Add1", ["_", "Stop", "Overflow"]],
+    ["0", "Add1", ["x", "Right", "Resu1"]],
+    ["1", "Add1", ["x", "Right", "Resu2"]],
+    ["+", "Add1", ["+", "Stop", "End"]],
+    ["x", "Add1", ["x", "Left", "Add1"]],
+    ["_", "Resu0", ["_", "Stop", "Overflow"]],
+    ["0", "Resu0", ["0", "Right", "Resu0"]],
+    ["1", "Resu0", ["1", "Right", "Resu0"]],
+    ["+", "Resu0", ["+", "Right", "Resu0"]],
+    ["x", "Resu0", ["x", "Right", "Resu0"]],
+    ["y", "Resu0", ["0", "Left", "Start"]],
+    ["_", "Resu1", ["_", "Stop", "Overflow"]],
+    ["0", "Resu1", ["0", "Right", "Resu1"]],
+    ["1", "Resu1", ["1", "Right", "Resu1"]],
+    ["+", "Resu1", ["+", "Right", "Resu1"]],
+    ["x", "Resu1", ["x", "Right", "Resu1"]],
+    ["y", "Resu1", ["1", "Left", "Start"]],
+    ["y", "Start", ["y", "Left", "Start"]],
+    ["y", "Found0", ["y", "Left", "End"]],
+    ["y", "Found1", ["y", "Left", "End"]],
+    ["y", "Add0", ["y", "Left", "End"]],
+    ["y", "Add1", ["y", "Left", "End"]],
+    ["_", "Clean", ["_", "Right", "Clean"]],
+    ["0", "Clean", ["0", "Stop", "End"]],
+    ["1", "Clean", ["1", "Stop", "End"]],
+    ["+", "Clean", ["_", "Right", "End"]],
+    ["x", "Clean", ["_", "Left", "Clean"]],
+    ["y", "Clean", ["_", "Stop", "End"]],
+    ["_", "Resu2", ["_", "Stop", "Overflow"]],
+    ["0", "Resu2", ["0", "Right", "Resu2"]],
+    ["1", "Resu2", ["1", "Right", "Resu2"]],
+    ["+", "Resu2", ["+", "Right", "Resu2"]],
+    ["x", "Resu2", ["x", "Right", "Resu2"]],
+    ["y", "Resu2", ["0", "Left", "Borrow"]],
+    ["_", "Borrow", ["_", "Stop", "Overflow"]],
+    ["0", "Borrow", ["y", "Left", "Found1"]],
+    ["1", "Borrow", ["y", "Left", "Found2"]],
+    ["+", "Borrow", ["+", "Left", "Borrow"]],
+    ["x", "Borrow", ["x", "Left", "Borrow"]],
+    ["y", "Borrow", ["y", "Left", "Borrow"]],
+    ["_", "Found2", ["_", "Stop", "Overflow"]],
+    ["0", "Found2", ["0", "Left", "Found2"]],
+    ["1", "Found2", ["1", "Left", "Found2"]],
+    ["+", "Found2", ["+", "Left", "Add2"]],
+    ["x", "Found2", ["x", "Left", "Found2"]],
+    ["y", "Found2", ["y", "Left", "End"]],
+    ["_", "Add2", ["_", "Stop", "Overflow"]],
+    ["0", "Add2", ["x", "Right", "Resu1"]],
+    ["1", "Add2", ["x", "Right", "Resu3"]],
+    ["+", "Add2", ["+", "Stop", "End"]],
+    ["x", "Add2", ["x", "Left", "Add2"]],
+    ["y", "Add2", ["y", "Left", "End"]],
+    ["_", "Resu3", ["_", "Stop", "Overflow"]],
+    ["0", "Resu3", ["0", "Right", "Resu3"]],
+    ["1", "Resu3", ["1", "Right", "Resu3"]],
+    ["+", "Resu3", ["+", "Right", "Resu3"]],
+    ["x", "Resu3", ["x", "Right", "Resu3"]],
+    ["y", "Resu3", ["1", "Left", "Borrow"]]
   ],
   "tape": {
     "blank_symbol": "_",
     "offset": 0,
     "cursor": 9,
-    "data": [
-      "1",
-      "0",
-      "0",
-      "1",
-      "+",
-      "0",
-      "0",
-      "1",
-      "0",
-      "_"
-    ],
-    "history": [
-      []
-    ],
+    "data": ["0", "1", "1", "0", "+", "0", "1", "1", "0", "_"],
+    "history": [[]],
     "history_size": 0
   },
-  "final_states": [
-    "End",
-    "Resu2"
-  ],
+  "final_states": ["End", "Overflow"],
   "initial_state": "Start",
   "initial_tape": {
     "blank_symbol": "_",
     "offset": 0,
     "cursor": 9,
-    "data": [
-      "1",
-      "0",
-      "0",
-      "1",
-      "+",
-      "0",
-      "0",
-      "1",
-      "0",
-      "_"
-    ]
+    "data": ["0", "1", "1", "0", "+", "0", "1", "1", "0", "_"]
   },
-  "state_history": [
-    "Start"
-  ],
+  "state_history": ["Start"],
   "name": "Nicole",
   "created": "2023-12-29 16:6:31.279",
   "step": 0,
