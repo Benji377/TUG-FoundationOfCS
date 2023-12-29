@@ -1,1 +1,1 @@
-\b((aab|aba)+a+bb|abbabb*(?:ab)*a|aaab)\b
+(aababba|aababb+bab+a|aab+a+bbbabbaba|aaab|aaaba|aaab(bab)+a|ababb|ab(bab)+a|aba(a*bb|a*bb+a|a*bbab+)+a)
