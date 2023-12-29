@@ -1,0 +1,33 @@
+{
+    "states": [
+      "Start",
+      "Add",
+      "Carry",
+      "End",
+      "Overflow"
+    ],
+    "alphabet": ["0", "1", "+"],
+    "blank": "_",
+    "transitions": {
+      "Start": {
+        "_": { "write": "_", "move": "R", "next_state": "Start" },
+        "0": { "write": "0", "move": "R", "next_state": "Add" },
+        "1": { "write": "1", "move": "R", "next_state": "Add" },
+        "+": { "write": "_", "move": "R", "next_state": "Carry" }
+      },
+      "Add": {
+        "_": { "write": "_", "move": "L", "next_state": "End" },
+        "0": { "write": "0", "move": "R", "next_state": "Add" },
+        "1": { "write": "1", "move": "R", "next_state": "Add" },
+        "+": { "write": "_", "move": "L", "next_state": "End" }
+      },
+      "Carry": {
+        "_": { "write": "_", "move": "L", "next_state": "Overflow" },
+        "0": { "write": "_", "move": "R", "next_state": "Carry" },
+        "1": { "write": "_", "move": "R", "next_state": "Carry" }
+      }
+    },
+    "initial_state": "Start",
+    "final_states": ["End", "Overflow"]
+  }
+  
