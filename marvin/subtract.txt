@@ -28,7 +28,6 @@
 // 0-1
 (ggg,grün,1)->(1,nach vorn,blau)
 
-
 // 1-0
 (ggg,gelb,1)->(1,nach vorn,rot)
 (ggg,rot,0)->(0,nach vorn,rot)
