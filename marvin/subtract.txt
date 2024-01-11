@@ -1,43 +1,41 @@
-// Bewegung
-(ggg,,)->(,nach vorn,)
-(ggg,,1)->(1,nach vorn,)
-(ggg,,0)->(0,nach vorn,)
-(ggg,pink,1)->(1,nach vorn,pink)
-(ggg,pink,0)->(0,nach vorn,pink)
-(ggg,gelb,)->(,umdrehen,)
-#(ggg,weiß,)->(,umdrehen,blau)
-(ggf,,)->(,nach links,gelb)
-(ggf,pink,)->(,nach links,weiß)
-(gfg,,)->(,nach links,)
-(gfg,pink,)->(,nach links,pink)
-(fgf,,)->(,nach vorn,)
+(fgf,,)->(,nach vorn,cycling)
+(ggg,start,)->(,nach vorn,start)
+(gfg,start,)->(,nach links,end)
 
-// Retour
-(gff,,)->(,umdrehen,grün)
-(ggg,grün,)->(,nach links,grün)
-(ffg,grün,)->(,nach rechts,grün)
-(fgg,grün,)->(,nach vorn,grün)
+(ggg,start,0)->(0,nach vorn,foundzero)
+(ggg,start,1)->(1,nach vorn,foundone)
 
-// Subtraktion
-// 0-0
-(ggg,gelb,0)->(0,nach vorn,grün)
-(ggg,grün,0)->(0,nach vorn,grün)
-// Borrow
-(ggg,weiß,0)->(0,nach vorn,rot)
+(ggg,foundzero,0)->(0,nach vorn,resuzero)
+(ggg,foundzero,1)->(1,nach vorn,resutwo)
+(ggg,foundone,0)->(0,nach vorn,resuone)
+(ggg,foundone,1)->(1,nach vorn,resuzero)
 
-// 0-1
-(ggg,grün,1)->(1,nach vorn,blau)
+(gfg,resuzero,)->(0,umdrehen,cycling)
+(gfg,resuone,)->(1,umdrehen,cycling)
+(gfg,resutwo,)->(1,umdrehen,borrowing)
 
-// 1-0
-(ggg,gelb,1)->(1,nach vorn,rot)
-(ggg,rot,0)->(0,nach vorn,rot)
-// Borrow
-(ggg,weiß,1)->(1,nach vorn,grün)
+(ggg,cycling,)->(,nach vorn,cycling)
+(ggg,cycling,0)->(0,nach vorn,cycling)
+(ggg,cycling,1)->(1,nach vorn,cycling)
+(gfg,cycling,)->(,nach links,cycling)
+(ggf,cycling,)->(,nach links,start)
 
-// 1-1
-(ggg,rot,1)->(1,nach vorn,grün)
+(ggg,borrowing,)->(,nach vorn,borrowing)
+(ggg,borrowing,0)->(0,nach vorn,borrowing)
+(ggg,borrowing,1)->(1,nach vorn,borrowing)
+(gfg,borrowing,)->(,nach links,borrowing)
+(ggf,borrowing,)->(,nach links,borrowtake)
 
-// Ergebnis schreiben
-(gfg,rot,)->(1,umdrehen,)
-(gfg,grün,)->(0,umdrehen,)
-(gfg,blau,)->(1,umdrehen,pink)
+(ggg,borrowtake,0)->(0,nach vorn,borrowfoundone)
+(ggg,borrowtake,1)->(1,nach vorn,foundzero)
+
+(ggg,borrowfoundone,0)->(0,nach vorn,borrowzero)
+(ggg,borrowfoundone,1)->(1,nach vorn,borrowone)
+
+(gfg,borrowzero,)->(1,umdrehen,borrowing)
+(gfg,borrowone,)->(0,umdrehen,borrowing)
+
+(ggf,end,)->(,nach vorn,end)
+(ggf,end,0)->(0,nach vorn,end)
+(ggf,end,1)->(1,nach vorn,end)
+(ggg,end,)->(,nach rechts,end)
