@@ -1,1 +1,1 @@
-(aababba|aababb+bab+a|aab+a+bbbabbaba|aaab|aaaba|aaab(bab)+a|ababbbaba|ababb|ab(bab)+a|aba(a*bb|a*bb+a|a*bbab+)+a)
+\b(abbab|aaab|aab|aba)((bab)*|(a*bb(bab)*)*)a\b
