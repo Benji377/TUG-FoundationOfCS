@@ -1,1 +1,1 @@
-(abbab|aaa|aab|aba|ababb)((bab)*|(a*bb(bab)*)*)(a|b)+
+(abbab|aaab|aab|aba|ababb)((bab)*|(a*bb(bab)*)*)a?
